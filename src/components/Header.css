@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+.header {
+  font-family: "Dancing Script";
+  font-weight: 100;
+  font-size: x-large;
+  color: rgb(20, 224, 13);
+  cursor: pointer;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: animHead;
+  animation-name: animHead;
+}
+.header:hover {
+  color: rgb(15, 211, 8);
+  transition: 0.5s;
+}
+
+@keyframes animHead {
+  0% {
+    color: rgb(15, 211, 8);
+  }
+
+  10% {
+    color: rgb(143, 199, 13);
+  }
+  20% {
+    color: rgb(15, 211, 8);
+  }
+  30% {
+    color: rgb(197, 211, 8);
+  }
+  40% {
+    color: rgb(211, 164, 8);
+  }
+  50% {
+    color: rgb(15, 211, 8);
+  }
+  100% {
+    color: rgb(15, 211, 8);
+  }
+}

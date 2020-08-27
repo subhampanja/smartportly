@@ -1,4 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Theme :- SmartPortly V0.1.0
+A simple portfolio template for everyone !
+
+### Have to Mention Theme Name :- SmartPortly
 
 ## Available Scripts
 

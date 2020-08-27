@@ -1,0 +1,40 @@
+.project {
+  width: 50%;
+  cursor: pointer;
+}
+.project_each {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.project_header {
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+.project_description {
+  padding-left: 5px;
+}
+.project_last {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .project {
+    width: 100%;
+  }
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
+    */
+  .project {
+    width: 100%;
+  }
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .project {
+    width: 100%;
+  }
+}

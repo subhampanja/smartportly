@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap");
+
+.calendly_heading {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto Mono", monospace;
+}
+.calendly_calender {
+  display: flex;
+  justify-content: center;
+}
+.calendly_calender > a > img {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+}

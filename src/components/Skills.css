@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap");
+.skills {
+  margin: 20px;
+}
+.skills_header {
+  justify-content: center;
+}
+.skills_each {
+  display: flex;
+  flex-grow: 1;
+}
+.skills_star {
+  color: rgb(255, 209, 2);
+}
+.skills_three {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills_each > span {
+  font-size: large;
+}
+.skill_header {
+  font-weight: 900;
+  font-size: 45px;
+  font-family: "Roboto Mono", monospace;
+}
+.skills_text {
+  flex-wrap: wrap;
+}
+.skills_text > p {
+  font-size: 20px;
+}
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .skill_header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
+      */
+  .skill_header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .skill_header {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
+.body {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left {
+  flex: 0.5;
+  padding-top: 9rem;
+}
+.right {
+  margin-top: 20px;
+  flex: 0.5;
+}
+.right_banner {
+  width: 100%;
+  height: auto;
+}
+.body_header {
+  font-weight: bolder;
+  font-size: large;
+}
+.body_content {
+  font-weight: 100;
+  font-size: medium;
+}
+.animate {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: anim;
+  animation-name: anim;
+  display: inline-block;
+  -webkit-transform-origin: 70% 70%;
+  transform-origin: 70% 70%;
+}
+
+@keyframes anim {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  20% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+  30% {
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+  }
+  40% {
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+.connect {
+  display: flex;
+}
+.connect_icon {
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-right: 15px !important;
+}
+.connect_icon:hover {
+  opacity: 1;
+  animation-name: animicon;
+  animation-duration: 1s;
+}
+
+@keyframes animicon {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(60deg);
+    transform: rotate(60deg);
+  }
+  20% {
+    -webkit-transform: rotate(120deg);
+    transform: rotate(120deg);
+  }
+  30% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  40% {
+    -webkit-transform: rotate(240deg);
+    transform: rotate(240deg);
+  }
+  50% {
+    -webkit-transform: rotate(300deg);
+    transform: rotate(300deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.github {
+  background-color: black !important;
+}
+.linkedIn {
+  background-color: #0072b1 !important;
+}
+.email {
+  background-color: #d44638 !important;
+}
+.twitter {
+  background-color: #00acee !important;
+}
+
+.facebook {
+  background-color: #3b5998 !important;
+}
+
+.instagram {
+  background-color: #c1496d !important;
+}
+
+.whatsapp {
+  background-color: #128c7e !important;
+}
+.button {
+  margin-top: 20px;
+}
+.button > a {
+  text-decoration: none;
+}
+.buttton_contact {
+  margin-right: 40px !important;
+}
+
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .right {
+    flex: 1;
+  }
+  .left {
+    padding-top: 0;
+  }
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
+  */
+  .right {
+    flex: 1;
+  }
+  .left {
+    padding-top: 0;
+  }
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .right {
+    flex: 1;
+  }
+  .left {
+    padding-top: 0;
+  }
+}

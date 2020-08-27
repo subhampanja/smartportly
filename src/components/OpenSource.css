@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap");
+.opensource {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.opensource_header {
+  display: flex;
+  justify-content: center;
+}
+.opensource_header > h1 {
+  font-weight: 900;
+  font-size: 45px;
+  font-family: "Roboto Mono", monospace;
+}
+.opensource_button {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.opensource_button > a {
+  text-decoration: none;
+}
+
+@media (max-width: 320px) {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  .opensource_header > h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. 
+      */
+  .opensource_header > h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .opensource_header > h1 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer_name {
+  display: flex;
+  justify-content: center;
+}
+.footer_name > p {
+  font-size: medium;
+  font-weight: 800;
+}
+.footer_dev {
+  display: flex;
+  justify-content: center;
+}
+.footer_dev > p {
+  font-size: medium;
+  font-weight: 300;
+  margin-top: -5px;
+}
+.footer_dev > p > a {
+  font-weight: 400;
+  color: rgb(22, 114, 206);
+  text-decoration: none;
+}

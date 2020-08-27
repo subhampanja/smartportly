@@ -1,4 +1,4 @@
-Theme :- SmartPortly V0.1.0
+### Theme :- SmartPortly V0.1.0
 A simple portfolio template for everyone !
 
 ### Have to Mention Theme Name :- SmartPortly

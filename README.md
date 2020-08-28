@@ -3,6 +3,12 @@ A simple portfolio template for everyone !
 
 ### Have to Mention Theme Name :- SmartPortly
 
+### Technologies used :- React, Material-UI, GSAP, Github API(to fetch the repos), Caledenly to schedule call.
+
+### Install Node JS
+
+### `npm install`
+
 ## Available Scripts
 
 In the project directory, you can run:

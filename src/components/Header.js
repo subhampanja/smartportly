@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header">
       <Box display="flex" justifyContent="center">
-        <h1>Subham Panja</h1>
+        <h2>Subham Panja</h2>
       </Box>
     </div>
   );

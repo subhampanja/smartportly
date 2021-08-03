@@ -65,15 +65,15 @@ function Body() {
         </div>
         <div ref={(el) => (bodyContent = el)} className="body_content">
           <h3>
-            I am Web Developer{" "}
+            I am Web Developer{""}
             <span role="img" aria-label="Developer">
               💻
             </span>{" "}
-            And Artist{" "}
+            And Artist{""}
             <span role="img" aria-label="Developer">
               🖌
-            </span>{" "}
-            | React JS | React Native | Laravel
+            </span>{""}
+            | MERN Stack | Jamstack | React Native | Next JS | Gatsby JS
           </h3>
           <h3>
             Curious
@@ -174,7 +174,7 @@ function Body() {
             </Button>
           </a>
           <a
-            href="https://drive.google.com/file/d/1tMFCQclexMpHUbiWQjqD5G5xA4jzM0-N/view?usp=sharing"
+            href="https://drive.google.com/file/d/1KksZBbELh0t9fQl0eh-Bxq-ZmvCd1Fxs/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

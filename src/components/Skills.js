@@ -10,6 +10,9 @@ import db from "../assets/database-solid.svg";
 import firebase from "../assets/fire-solid.svg";
 import php from "../assets/php-brands.svg";
 import laravel from "../assets/laravel-brands.svg";
+import mongo from "../assets/mongodb.png";
+import gatsby from "../assets/gatsby.png";
+import next from "../assets/next-js.svg";
 import { TweenMax, Power3 } from "gsap";
 
 function Skills() {
@@ -23,6 +26,9 @@ function Skills() {
   let skills7 = useRef(null);
   let skills8 = useRef(null);
   let skills9 = useRef(null);
+  let skills10 = useRef(null);
+  let skills11 = useRef(null);
+  let skills12 = useRef(null);
   let ido1 = useRef(null);
   let ido2 = useRef(null);
   let ido3 = useRef(null);
@@ -46,6 +52,9 @@ function Skills() {
             skills7,
             skills8,
             skills9,
+            skills10,
+            skills11,
+            skills12,
             ido1,
             ido2,
             ido3,
@@ -92,7 +101,7 @@ function Skills() {
             <h1 ref={(el) => (skills4 = el)} className="skills_each">
               <img src={node} alt="node" className="avatar_icon" />{" "}{" "}
               <span> Node JS </span>{" "}{" "}
-              <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
+              <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills5 = el)} className="skills_each">
               <img src={npm} alt="npm" className="avatar_icon" />{" "}{" "}
@@ -100,23 +109,40 @@ function Skills() {
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills6 = el)} className="skills_each">
-              <img src={laravel} alt="laravel" className="avatar_icon" />{" "}{" "}
-              <span> Laravel </span>{" "}{" "}
-              <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
+              <img src={gatsby} alt="gatsby" className="avatar_icon" />{" "}{" "}
+              <span> Gatsby JS </span>{" "}{" "}
+              <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
           </div>
           <div className="skills_three">
             <h1 ref={(el) => (skills7 = el)} className="skills_each">
+              <img src={next} alt="next" className="avatar_icon" />{" "}{" "}
+              <span> Next JS </span>{" "}{" "}
+              <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
+            </h1>
+            <h1 ref={(el) => (skills8 = el)} className="skills_each">
+              <img src={mongo} alt="mongo" className="avatar_icon" />{" "}{" "}
+              <span> Mongo DB </span>{" "}{" "}
+              <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
+            </h1>
+            <h1 ref={(el) => (skills9 = el)} className="skills_each">
               <img src={firebase} alt="firebase" className="avatar_icon" />{" "}{" "}
               <span> Firebase </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
-            <h1 ref={(el) => (skills8 = el)} className="skills_each">
+          </div>
+          <div className="skills_three">
+            <h1 ref={(el) => (skills10 = el)} className="skills_each">
+              <img src={laravel} alt="laravel" className="avatar_icon" />{" "}{" "}
+              <span> Laravel </span>{" "}{" "}
+              <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
+            </h1>
+            <h1 ref={(el) => (skills11 = el)} className="skills_each">
               <img src={php} alt="php" className="avatar_icon" />{" "}{" "}
               <span> PHP </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
-            <h1 ref={(el) => (skills9 = el)} className="skills_each">
+            <h1 ref={(el) => (skills12 = el)} className="skills_each">
               <img src={db} alt="db" className="avatar_icon" />{" "}{" "}
               <span> SQL Database </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
@@ -128,7 +154,7 @@ function Skills() {
                 <span role="img" aria-label="star">
                   ⚡
                 </span>{" "}
-                Development Front-End with React JS and React Native(Mobile)
+                Development Front-End with React JS / Next JS / Gatsby JS (Web) and React Native(Mobile)
               </p>
               <p ref={(el) => (ido2 = el)}>
                 <span role="img" aria-label="star">

@@ -10,6 +10,7 @@ import WhatsAppIcon from "@material-ui/icons/WhatsApp";
 import EmailIcon from "@material-ui/icons/Email";
 import Button from "@material-ui/core/Button";
 import Banner from "../assets/undraw_duplicate_xac4.svg";
+import upwork from "../assets/upwork.png"
 import { TweenMax, Power3 } from "gsap";
 
 function Body() {
@@ -22,6 +23,7 @@ function Body() {
   let connect5 = useRef(null);
   let connect6 = useRef(null);
   let connect7 = useRef(null);
+  let connect8 = useRef(null);
   let button = useRef(null);
   let right = useRef(null);
 
@@ -40,6 +42,7 @@ function Body() {
             connect5,
             connect6,
             connect7,
+            connect8,
             button,
             right,
           ],
@@ -160,6 +163,14 @@ function Body() {
             <Avatar className="connect_icon whatsapp">
               <WhatsAppIcon />
             </Avatar>
+          </a>
+          <a
+            ref={(el) => (connect8 = el)}
+            href="https://www.upwork.com/freelancers/~01b33de8e7ea463064"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Avatar src={upwork} className="connect_icon upwork" />
           </a>
         </div>
         <div ref={(el) => (button = el)} className="button">

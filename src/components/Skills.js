@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import "./Skills.css";
 import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
-import Avatar from "@material-ui/core/Avatar";
 import react from "../assets/react-brands.svg";
 import brush from "../assets/paint-brush-solid.svg";
 import node from "../assets/node-js-brands.svg";
@@ -74,52 +73,52 @@ function Skills() {
         <Container maxWidth="md">
           <div className="skills_three">
             <h1 ref={(el) => (skills1 = el)} className="skills_each">
-              <img src={brush} alt="brush" className="avatar_icon" />
-              <span> Art </span>
+              <img src={brush} alt="brush" className="avatar_icon" />{" "}{" "}
+              <span> Art </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ★ </span>
             </h1>
             <h1 ref={(el) => (skills2 = el)} className="skills_each">
-              <img src={react} alt="react" className="avatar_icon" />
-              <span> React JS </span>
+              <img src={react} alt="react" className="avatar_icon" />{" "}{" "}
+              <span> React JS </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills3 = el)} className="skills_each">
-              <img src={react} alt="react" className="avatar_icon" />
-              <span> React Native </span>
+              <img src={react} alt="react" className="avatar_icon" />{" "}{" "}
+              <span> React Native </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
           </div>
           <div className="skills_three">
             <h1 ref={(el) => (skills4 = el)} className="skills_each">
-              <img src={node} alt="node" className="avatar_icon" />
-              <span> Node JS </span>
+              <img src={node} alt="node" className="avatar_icon" />{" "}{" "}
+              <span> Node JS </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills5 = el)} className="skills_each">
-              <img src={npm} alt="npm" className="avatar_icon" />
-              <span> npm </span>
+              <img src={npm} alt="npm" className="avatar_icon" />{" "}{" "}
+              <span> npm </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills6 = el)} className="skills_each">
-              <img src={laravel} alt="laravel" className="avatar_icon" />
-              <span> Laravel </span>
+              <img src={laravel} alt="laravel" className="avatar_icon" />{" "}{" "}
+              <span> Laravel </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
           </div>
           <div className="skills_three">
             <h1 ref={(el) => (skills7 = el)} className="skills_each">
-              <img src={firebase} alt="firebase" className="avatar_icon" />
-              <span> Firebase </span>
+              <img src={firebase} alt="firebase" className="avatar_icon" />{" "}{" "}
+              <span> Firebase </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills8 = el)} className="skills_each">
-              <img src={php} alt="php" className="avatar_icon" />
-              <span> PHP </span>
+              <img src={php} alt="php" className="avatar_icon" />{" "}{" "}
+              <span> PHP </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills9 = el)} className="skills_each">
-              <img src={db} alt="db" className="avatar_icon" />
-              <span> SQL Database </span>
+              <img src={db} alt="db" className="avatar_icon" />{" "}{" "}
+              <span> SQL Database </span>{" "}{" "}
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
           </div>

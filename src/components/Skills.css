@@ -8,6 +8,8 @@
 .skills_each {
   display: flex;
   flex-grow: 1;
+  align-items: center;
+  justify-content: center;
 }
 .skills_star {
   color: rgb(255, 209, 2);
@@ -21,8 +23,8 @@
   font-size: large;
 }
 .skill_header {
-  font-weight: 900;
-  font-size: 45px;
+  font-weight: 200;
+  font-size: 2.8rem;
   font-family: "Roboto Mono", monospace;
 }
 .skills_text {
@@ -30,6 +32,10 @@
 }
 .skills_text > p {
   font-size: 20px;
+}
+.avatar_icon{
+  height: 1.8rem!important;
+  width: 1.8rem!important;
 }
 @media (max-width: 320px) {
   /* smartphones, iPhone, portrait 480x320 phones */

@@ -74,56 +74,51 @@ function Skills() {
         <Container maxWidth="md">
           <div className="skills_three">
             <h1 ref={(el) => (skills1 = el)} className="skills_each">
-              <Avatar
-                className="avatar_icon"
-                variant="square"
-                src={brush}
-                alt="brush"
-              />
+              <img src={brush} alt="brush" className="avatar_icon" />
               <span> Art </span>
               <span className="skills_star"> ★ ★ ★ ★ ★ </span>
             </h1>
             <h1 ref={(el) => (skills2 = el)} className="skills_each">
-              <Avatar variant="square" src={react} alt="react" />
+              <img src={react} alt="react" className="avatar_icon" />
               <span> React JS </span>
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills3 = el)} className="skills_each">
-              <Avatar variant="square" src={react} alt="react" />
+              <img src={react} alt="react" className="avatar_icon" />
               <span> React Native </span>
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
           </div>
           <div className="skills_three">
             <h1 ref={(el) => (skills4 = el)} className="skills_each">
-              <Avatar variant="square" src={node} alt="node" />
+              <img src={node} alt="node" className="avatar_icon" />
               <span> Node JS </span>
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills5 = el)} className="skills_each">
-              <Avatar variant="square" src={npm} alt="npm" />
+              <img src={npm} alt="npm" className="avatar_icon" />
               <span> npm </span>
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills6 = el)} className="skills_each">
-              <Avatar variant="square" src={laravel} alt="laravel" />
+              <img src={laravel} alt="laravel" className="avatar_icon" />
               <span> Laravel </span>
               <span className="skills_star"> ★ ★ ★ ☆ ☆ </span>
             </h1>
           </div>
           <div className="skills_three">
             <h1 ref={(el) => (skills7 = el)} className="skills_each">
-              <Avatar variant="square" src={firebase} alt="firebase" />
+              <img src={firebase} alt="firebase" className="avatar_icon" />
               <span> Firebase </span>
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills8 = el)} className="skills_each">
-              <Avatar variant="square" src={php} alt="php" />
+              <img src={php} alt="php" className="avatar_icon" />
               <span> PHP </span>
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
             <h1 ref={(el) => (skills9 = el)} className="skills_each">
-              <Avatar variant="square" src={db} alt="db" />
+              <img src={db} alt="db" className="avatar_icon" />
               <span> SQL Database </span>
               <span className="skills_star"> ★ ★ ★ ★ ☆ </span>
             </h1>
